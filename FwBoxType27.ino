@@ -15,14 +15,14 @@
 #include "SoftwareSerial.h"
 
 #define DEVICE_TYPE 27
-#define FIRMWARE_VERSION "1.0.1"
+#define FIRMWARE_VERSION "1.0.2"
 
 #define ANALOG_VALUE_DEBOUNCING 8
 
 //
 // Debug definitions
 //
-#define FW_BOX_DEBUG 1
+#define FW_BOX_DEBUG 0
 
 #if FW_BOX_DEBUG == 1
   #define DBG_PRINT(VAL) Serial.print(VAL)
